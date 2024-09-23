@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % for dummy text
+
+% Set up header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{Maulana Abul Kalam Azad University Of Technology}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+% Title of the document
+\title{SEC EXAM}
+\author{}
+\date{}
+\maketitle
+
+% Section 1
+\section{Introduction}
+\lipsum[1] % This generates some placeholder text for the first section
+
+% Section 2
+\section{Methodology}
+\lipsum[2] % This generates some placeholder text for the second section
+
+\end{document}
